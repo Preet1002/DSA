@@ -1,3 +1,4 @@
+//Fibonacci series
 #include<iostream>
 using namespace std;
 int main(){
@@ -13,3 +14,17 @@ int main(){
     }
     return 0;
 }
+//Prime number
+  int a;
+    cin>>a;
+    for (int i=2; i<a; i++){
+        if (a%i==0){
+            cout<<"Not a prime number"<<endl;
+            break;
+        }
+        else{
+            cout<<"PRime"<<endl;
+            break;
+        }
+
+    }
